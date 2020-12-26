@@ -1,0 +1,41 @@
+.title{
+  font-size: 50px;
+  font-weight: bold;
+  font-family: Brush Script MT;
+  color: black;
+}
+.logo{
+  font-size: 15px;
+  font-weight: bold;
+}
+.description{
+  font-size: 15px;
+  font-weight: bold;
+  font-family: arial;
+  padding-top: 25px;
+  padding-bottom: 100px;
+}
+.pianist{
+  font-size: 40px;
+  font-weight: bold;
+  font-family: Brush Script MT;
+}
+p{
+  color: black;
+}
+h1{
+  font-family: Brush Script MT;
+  font-size: 50px;
+  font-weight: bold;
+}
+h2{
+  font-size: 30px;
+}
+td{
+  font-size: 20px;
+  font-weight: bold;
+  padding: 20px;
+}
+a{
+  color: black;
+}
