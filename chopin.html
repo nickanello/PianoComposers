@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head> <! ––load bootstrap––>
+   <link rel="stylesheet" type="text/css"
+href="css/bootstrap.css">
+   <link rel="stylesheet" type="text/css"
+href="css/bootstrap-theme.css">
+   <link rel="stylesheet" type="text/css"
+href="css/custom.css">
+<script src="js/jquery-3.1.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+  <div class="container" style="background: url(images/background.jpg)"> <! ––make container and give it a background––>
+    <div class="row"> <! ––row for logo and title––>
+      <div class="col-xs-2 text-center logo">
+        <a href="index.html"> <! ––logo links back to index page––>
+          <img src="images/logo.jpg" alt="logo" height="100px" style="border:5px solid black">
+          <p>Home</p>
+        </a>
+      </div>
+      <div class="col-xs-10 text-center title">
+        <a href="index.html"> <! ––title links back to logo page––>
+          <p style="color: black; text-decoration: underline;">Classical Piano Composers</p>
+        </a>
+      </div>
+    </div>
+    <div class="row" style="padding-top: 40px;"> <! ––row for pianist image, name, and bio––>
+      <div class="col-sm-5 text-center"><img src="images/chopin.jpg" alt="Chopin" width=300px style="border:10px solid #61C2F7;"></div>
+      <div class="col-sm-7 text-center">
+        <h1>Frédéric Chopin</h1>
+        <h2>Born in 1810, Chopin was a Polish composer who is most widely known for his outstanding solo piano technique and genius composition ideas. At the age of 21, he relocated to Paris where he earned a living by selling his compositions and teaching piano lessons. He preferred to perform in front of small crouds, rather than large audiences. He died of tuberculosis at the age of 39.</h2>
+      </div>
+    </div>
+    <div class="row" style="padding-top: 80px; padding-bottom: 80px;"> <! ––row to hold table, with blank columns of length 2 on either side––>
+      <div class="col-xs-2"></div>
+      <div class="col-xs-8">
+        <table border="3" bordercolor="black" align=center>
+          <tr>
+            <td colspan="2" align=center style="font-size: 30px;">Links To My Favorite Compositions</td> <! ––title row of table with only one column that spans whole table––>
+          </tr>
+          <tr> <! ––each composition with links to youtube videos––>
+            <td width="300px"><a href="https://www.youtube.com/watch?v=tV5U8kVYS88" target="_blank">Nocturne Op. 9 No. 2</a></td>
+            <td width="300px"><a href="https://www.youtube.com/watch?v=X2JCxapd5hU" target="_blank">Minute Waltz</a></td>
+          </tr>
+          <tr>
+            <td><a href="https://www.youtube.com/watch?v=FZtBwlxL0Aw" target="_blank">Berceuse</a></td>
+            <td><a href="https://www.youtube.com/watch?v=8ltXHzqEVpk" target="_blank">Tristesse</a></td>
+          </tr>
+        </table>
+      </div>
+      <div class="col-xs-2"></div>
+    </div>
+
+  </div>
+
+
+
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head> <! –– load bootstrap ––>
+   <link rel="stylesheet" type="text/css"
+href="css/bootstrap.css">
+   <link rel="stylesheet" type="text/css"
+href="css/bootstrap-theme.css">
+   <link rel="stylesheet" type="text/css"
+href="css/custom.css">
+<script src="js/jquery-3.1.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+  <div class="container" style="background: url(images/background.jpg)"> <! ––make container and give it a background––>
+    <div class="row"> <! ––row for home logo and title––>
+      <div class="col-xs-2 text-center logo"> <! ––logo––>
+        <a href="index.html"> <! ––logo links back to this index page––>
+          <img src="images/logo.jpg" alt="logo" height="100px" style="border:5px solid black">
+          <p>Home</p>
+        </a>
+      </div>
+      <div class="col-xs-10 text-center title">
+        <a href="index.html"> <! ––title also links back to this index page––>
+          <p style="text-decoration: underline;">Classical Piano Composers</p>
+        </a>
+      </div>
+    </div>
+    <div class="row"> <! ––row for description––>
+      <div class="col-xs-2"></div> <! ––center description and leave two columns of length 2 on either side––>
+      <div class="col-xs-8 text-center description">Welcome to my website! Here, you will find information about three of my favorite classical piano composers. These composers have made several brilliant compositions that inspire me to play piano, and I hope they inspire you too!</div>
+      <div class="col-xs-2"></div>
+    </div>
+    <div class="row"> <! ––row for the three pianists––>
+      <div class="col-md-4 col-sm-6 text-center pianist" style="padding-bottom: 30px">
+        <a href="chopin.html"> <! ––image and name links to pianist's page––>
+          <img src="images/chopin-face.jpg" height="300px" onmouseclick="href" style="border:10px solid #61C2F7;">
+          <p>Frédéric Chopin</p>
+        </a>
+      </div>
+      <div class="col-md-4 col-sm-6 text-center pianist" style="padding-bottom: 30px">
+        <a href="liszt.html">
+          <img src="images/liszt-face.jpg" height="300px" style="border:10px solid #F15448;">
+          <p>Franz Liszt</p>
+        </a>
+      </div>
+      <div class="col-md-4 text-center pianist" style="padding-bottom: 30px">
+        <a href="debussy.html">
+          <img src="images/debussy-face.jpg" height="300px" style="border:10px solid #A184F1;">
+          <p>Claude Debussy</p>
+        </a>
+      </div>
+  </div>
+</body>
+</html>
